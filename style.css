@@ -88,11 +88,25 @@
 #services
 {
 	background-image: linear-
-	gradient(rgba(0,0,0,0.8),tgba(0,0,0,0.8)),url(img/csgoimg.jpg);
+	gradient(rgba(0,0,0,0.8),tgba(0,0,0,0.8))url(img/servicesf.jpg);
 	background-size: cover;
 	background-position: center;
-	color: #efefef !important;
+	color: #000000 !important;
 	background-attachment: fixed;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+#services h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+text-align: center;
+	color: #000000 !important;
+	padding-bottom: 10px;
+
