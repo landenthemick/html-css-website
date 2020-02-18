@@ -87,11 +87,10 @@
 /*-------------------Services------------*/
 #services
 {
-	background-image: linear-
-	gradient(rgba(0,0,0,0.8),tgba(0,0,0,0.8))url(img/servicesf.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/services.jpg);
 	background-size: cover;
 	background-position: center;
-	color: #000000 !important;
+	color: #efefef !important;
 	background-attachment: fixed;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -104,6 +103,10 @@
 	height: 3px;
 	width: 170px;
 	margin: 20px auto 5px;
+}
+
+#services h1 {
+  text-align: center;
 }
 
 text-align: center;
